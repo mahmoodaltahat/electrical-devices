@@ -3,11 +3,8 @@ alert('welcome to TFED store');
 var user_name = prompt('please enter your name')
   document.write('welcom ' + user_name);
    console.log('welcom ' + user_name);
-
-document.write("<pre>")
-  document.write('<h3> if want to buy go to contact us  </h3>');
   document.write("<pre>")
-document.write('<p> THIS IS OUR PRODUCT  </p>');
+document.write('<p1> THIS IS OUR PRODUCT  </p1>');
  var your_device = prompt('please enter a device type (TV Screen , Labtop)?')
 if(your_device =='TV Screen')
 {
@@ -19,7 +16,7 @@ if(your_device =='TV Screen')
     document.write('the price is ' + price + 'JD');
 }else if(your_device =='Labtop')
 {
-  var image2 = '<img src="image/images.jpg " alt= "Labtop"/>';
+  var image2 = '<img src="image/image.jpg " alt= "Labtop"/>';
   document.write("<pre>")
   document.write(image2);
     document.write("<pre>")
@@ -33,3 +30,5 @@ if (r == true) {
 } else {
   txt = "welcom at our stor";
 }
+document.write("<pre>")
+  document.write('<h3> if want to buy go to contact us  </h3>');
