@@ -16,7 +16,7 @@ if(your_device =='TV Screen')
     document.write('the price is ' + price + 'JD');
 }else if(your_device =='Labtop')
 {
-  var image2 = '<img src="image/image.jpg " alt= "Labtop"/>';
+  var image2 = '<img src="image/image.jpg" alt= "Labtop"/>';
   document.write("<pre>")
   document.write(image2);
     document.write("<pre>")
