@@ -45,7 +45,7 @@ for (var i = 1; i <= devices_number ; i++)
    document.write("<pre>");
    document.write(image2);
     document.write("<pre>");
-    var price= 700;
+    var price_factor= 700;
   }
 
 }
