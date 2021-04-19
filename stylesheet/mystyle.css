@@ -14,9 +14,7 @@ header{
   display:inline;
 }
 .img-container {
-        text-align: center;
-        height: 500px;
-        width: 500%;
+        text-align: center
       }
 li a {
   color: rgb(70, 16, 16);
