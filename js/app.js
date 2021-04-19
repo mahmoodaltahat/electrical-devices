@@ -27,6 +27,14 @@ var r = confirm("Press 'OK' if you want to see the product 'cancel' if not  ");
 if (r == true) {
   txt = "contact us on 078000000";
 
+/*var devices_num = function() {
+
+  var devices_number= prompt('how many device do you want to Buy?');
+  console.log(devices_number);
+  return devices_number;
+};
+devices_num();*/
+
 var devices_number= prompt('how many device do you want to Buy?');
 for (var i = 1; i <= devices_number ; i++) 
 { 
@@ -50,7 +58,7 @@ for (var i = 1; i <= devices_number ; i++)
 
 }
 
-function total_price(price)
+var total_price= function (price)
 {
 var price= price_factor*devices_number;
 document.write('The Total Price is ' +  price + 'JD');
