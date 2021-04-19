@@ -4,24 +4,36 @@ body {
 }
 
 header{
-      background-color: green
-    } 
-    h1 {
+      background-color: rgb(59, 104, 78)
+      } 
+
+h1    {
       text-align: center;
       }
-    h3 {color:blue;} 
-      li  {
+h3    {
+      color:rgb(240, 20, 20);
+      } 
+li    {
   display:inline;
+      }
+
+#display_image {
+
+text-align: center
 }
 .img-container {
-        text-align: center
-      }
+  text-align: center
+}
+.paragraph1 
+{
+color:rgb(240, 20, 20);
+}
 li a {
-  color: rgb(70, 16, 16);
+  color: red; ;
   text-align: center;
   padding: 20px 150px;
   text-decoration: none;
   display:inline-block ;
   margin: 30px ;
-  border:1px solid red;
+  border:1px double rgb(165, 42, 42);
 }
