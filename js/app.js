@@ -58,18 +58,27 @@ for (var i = 1; i <= devices_number ; i++)
 
 }
 
-var total_price= function (price)
+var total_price= function (price_factor,devices_number)
 {
 var price= price_factor*devices_number;
 document.write('The Total Price is ' +  price + 'JD');
 document.write("<pre>");
-document.write('<h3> if want to buy go to contact us  </h3>');
+document.write('<h3> if want to buy go to contact us </h3>');
+return price;
 }
-total_price();
 
+var dis_count = function() 
+ {
+   var discounting = 0.02*total_price(price_factor,devices_number);
+  document.write("<pre>");
+document.write('The discount is ' +  discounting + 'JD');
+document.write("<pre>"); 
+ }
+dis_count();
+ 
 } else {
   txt = "welcom at our stor";
   document.write('<p1> ^_^ You are Losing Us ^_^  </p1>');
 }
 
-  
+ 
